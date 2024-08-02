@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="formtag.html"  method="post"  >
+   <h2>multiple characters</h2>
+     <input type="text" name="username" required placeholder="enternumber"
+     pattern="[A-Z]+">
+     <input type="submit">
+ </form><br>
+ <form action="formtag.html" method="post">
+    <input type="text" name="username" required placeholder="enternumber"
+      pattern="/d+">
+      <input type="submit">
+</form><br>
+<form action="formtag.html"  method="post">
+    <input type="text" name="username" required placeholder="enternumber"
+      pattern="[a-z]+">
+      <input type="submit">
+</form><br>
+<form action="formtag.html" method="post">
+    <input type="text" name="username" required placeholder="enternumber"
+      pattern="[a-zA-Z/d @#$]+">
+      <input type="submit">
+      </form><br>
+      <form action="formtag.html" method="post">
+        <input type="text" name="username" required placeholder="enternumber"
+          pattern="[a-zA-Z/d]{2,9}">
+          <input type="submit">
+          </form><br>
+      <form action="formtag.html" method="post">
+      <label for="day">day</label>
+      <input type="number"name="day"id="day"min="1"max="31"    required>
+      <label for="month">month</label>
+      <input type="number"name="month"id="month"minn="1"max="12" required    >
+      <label for="year">year</label>
+      <input type="number"name="year"id="year"mon="1600"max="3000"  required   ><br>
+      <input type="submit"><br><br>
+     
+    </form><br>
+    <form action="formtag.html" method="post">  
+    <label for="username"></label>
+    <input type="text"name="username"id="usernam" required
+    placeholder="username"
+    pattern="(?=.*[a-b])(?=.*[A-Z])(?=.*[\d])(?=.*{8-16})">
+   <br>
+    <input type="submit">
+   </form>
+
+</body>
+</html>
